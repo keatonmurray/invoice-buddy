@@ -1,8 +1,33 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 @import "@fontsource/poppins";
+@import './custom.css';
 
 /* GLOBAL STYLES */
 
+:root {
+    --primary-color: #ececec;
+    --secondary-color: #1237cc;
+    --tertiary-color: #000;
+    --primary-font: Poppins, 'sans-serif';
+}
+
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primary-font);
+    background-color: var(--primary-color);
+}
+
+button {
+    border: none !important;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color) !important;
+    color: var(--primary-color) !important;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: transparent !important;
+    color: var(--tertiary-color) !important;
+    font-weight: bold;
 }

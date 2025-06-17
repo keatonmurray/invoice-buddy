@@ -6,8 +6,14 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>{{ config('app.name') }}</title>        
         <script src="https://kit.fontawesome.com/5dfbc71075.js" crossorigin="anonymous"></script>
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @livewireStyles
     </head>
     <body>
-        
+        <header>
+            @include('partials.nav')
+        </header>
+        @yield('content')
+        @livewireScripts
     </body>
 </html>
