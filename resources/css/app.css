@@ -43,6 +43,10 @@ input {
     margin-top: -5px !important;
 }
 
-label {
-    font-size: 15px !important;
+.form-control {
+    padding: 8px 1px;
+}
+
+textarea {
+    padding: 8px 10px !important;
 }

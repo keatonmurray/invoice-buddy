@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md py-1">
     <div class="container-fluid px-md-5 px-0 d-flex align-items-center justify-content-between">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
             <img src="{{ asset('img/logo.png') }}" alt="Logo" class="logo-img">
         </a>
 
@@ -10,7 +10,7 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto gap-3">
-                <li class="nav-item"><a href="#" class="nav-link text-dark fw-bold">Home</a></li>
+                <li class="nav-item"><a href="/" class="nav-link text-dark fw-bold">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link text-dark fw-bold">About Us</a></li>
             </ul>
 
