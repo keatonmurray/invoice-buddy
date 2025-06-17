@@ -1,0 +1,8 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "@fontsource/poppins";
+
+/* GLOBAL STYLES */
+
+body {
+    font-family: "Poppins", sans-serif;
+}
