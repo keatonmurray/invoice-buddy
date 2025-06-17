@@ -31,3 +31,18 @@ button {
     color: var(--tertiary-color) !important;
     font-weight: bold;
 }
+
+input {
+    border: none !important;
+    border-bottom: 1px solid #ccc !important;
+    border-radius: 0 !important;
+    padding-bottom: 0.5rem !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    transition: border-bottom-color 0.3s ease-in-out !important;
+    margin-top: -5px !important;
+}
+
+label {
+    font-size: 15px !important;
+}

@@ -9,3 +9,9 @@ header nav a img {
     width: 80px;
     cursor: pointer;
 }
+
+/* Form Styles */
+
+#footer_text {
+    border-bottom: 3px solid #ccc !important;
+}
