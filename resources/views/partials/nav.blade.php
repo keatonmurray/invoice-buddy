@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md py-1">
-    <div class="container d-flex align-items-center justify-content-between">
+    <div class="container-fluid px-md-5 px-0 d-flex align-items-center justify-content-between">
         <a class="navbar-brand" href="#">
             <img src="{{ asset('img/logo.png') }}" alt="Logo" class="logo-img">
         </a>

@@ -15,3 +15,8 @@ header nav a img {
 #footer_text {
     border-bottom: 3px solid #ccc !important;
 }
+
+.business-logo {
+    height: 70px;
+    width: auto;
+}
